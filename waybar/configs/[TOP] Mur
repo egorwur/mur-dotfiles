@@ -1,0 +1,70 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+// Sleek
+
+[
+    {
+        "layer": "top",
+        "output": "DP-2",  // Первый монитор
+        "margin-top": 5,
+        "margin-left": 10,
+        "margin-right": 10,
+        "height": 30,      // Высота панели для первого монитора
+        "modules-left": ["tray", "wlr/taskbar"],
+        "modules-center": ["clock","custom/swaync"],
+        "modules-right": ["pulseaudio", "hyprland/language","custom/power"],
+        "include": "$HOME/.config/waybar/MurModules" // Подключение файла с модулями
+    },
+    {
+        "layer": "top",
+        "output": "HDMI-A-2",  // Второй монитор
+        "margin-top": 5,
+        "margin-left": 10,
+        "margin-right": 10,
+        "height": 20,           // Меньшая высота панели для второго монитора
+        "modules-left": ["tray", "wlr/taskbar"],
+        "modules-center": ["clock","custom/swaync"],
+        "modules-right": ["pulseaudio","pulseaudio#microphone", "hyprland/language","custom/power"],
+        "include": "$HOME/.config/waybar/MurModules"  // Подключение файла с модулями
+    }
+]
+
+// {
+// "include": [
+//   "$HOME/.config/waybar/Modules",
+//   "$HOME/.config/waybar/ModulesWorkspaces",
+//   "$HOME/.config/waybar/ModulesCustom",
+//   "$HOME/.config/waybar/ModulesGroups",
+//   ],
+// "layer": "top",
+// "position": "top",
+// "height": 14,
+// "margin-left": 10,
+// "margin-right": 10,
+// "margin-top": 2,
+	
+// "modules-left": [
+// 	"custom/menu",
+// 	"custom/separator#blank_2",
+// 	"hyprland/workspaces",
+// 	"custom/separator#blank_2",
+// 	"mpris",
+// 	"tray"
+// ],
+
+// "modules-center": [
+// 	"idle_inhibitor",
+// 	"custom/separator#blank",
+// 	"clock#3",
+// 	"custom/separator#blank",
+// 	"custom/swaync"
+// ],
+		
+// "modules-right": [
+// 	"hyprland/window",
+// 	"custom/separator#blank",
+// 	"custom/separator#blank", 
+// 	"pulseaudio",
+// 	"custom/separator#blank",
+// 	"custom/power",					
+// 	],
+// }

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../waybar"
+		},
+		{
+			"path": "../../swaync"
+		},
+		{
+			"path": "../../ags"
+		}
+	],
+	"settings": {}
+}
